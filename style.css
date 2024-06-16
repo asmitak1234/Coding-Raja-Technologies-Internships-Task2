@@ -267,9 +267,14 @@ body {
   }
   .navbar{
     color: white;
-    margin-left: 44%;
+    display: flex;
+    justify-content: center;
   }
-
+#logo{
+  height: 40px;
+  width: 40px;
+  margin-left: 10px;
+}
 
 
 #music-library {
@@ -291,6 +296,7 @@ body {
 }
  .track-item:hover {
       cursor: pointer;
+      scale: 1.1;
   }
 .album-name {
     font-weight: bold;
