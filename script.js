@@ -32,13 +32,19 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        image : 'jhukinazar.png',
+        image : 'maahi.jpg',
+        name : 'O Maahi',
+        artist : 'Arijit Singh',
+        path : 'O Mahi O Mahi_320(PagalWorld.com.sb).mp3'
+    },
+    {
+        image : 'terijhukinazar.jpg',
         name : 'Teri Jhuki Nazar',
         artist : 'Shafqat Amanat Ali',
         path : '05. Teri Jhuki Nazar (Film Version).mp3'
     },
     {
-        image: 'soniya.png',
+        image: 'soniya.jpg',
         name : 'You Are My Sonia',
         artist : 'Alka Yagnik, Sonu Nigam',
         path: '03. You Are My Sonia.mp3'
